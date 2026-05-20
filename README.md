@@ -38,10 +38,10 @@ Para validar o sistema, inserimos um cenário focado em uma stack moderna lidand
 A infraestrutura foi configurada utilizando o modelo local `gpt-oss-20b` hospedado via LM Studio e orquestrado pela interface do AutoGen Studio.
 
 As evidências visuais obrigatórias do funcionamento do sistema estão localizadas na pasta `/evidencias`:
-* `config_modelo.png`: Demonstra a validação do modelo com o bypass estrutural JSON.
-* `fluxo_team.png`: Demonstra a arquitetura hierárquica no Team Builder, com o Orquestrador alocado na primeira posição do fluxo.
-* `logs_lmstudio.jpg`: Comprova o consumo assíncrono e a geração de tokens diretamente no servidor local.
-* `execucao_chat.png`: Captura do AutoGen Studio processando as respostas e a comunicação entre os agentes.
+* `01_autoGen_team.png`: Demonstra a arquitetura hierárquica no Team Builder, com o Orquestrador alocado na primeira posição do fluxo.
+* `02_autoGen+lmStudio_fluxo.jpg`: Comprova a comunicação entre o front-end (AutoGen) e o servidor local do LM Studio (consumo assíncrono e logs de processamento).
+* `03_autoGen_fluxo_Agents.png`: Apresenta o grafo visual do fluxo de execução, detalhando a passagem de turnos e o consumo de tokens entre o UserProxy, Orquestrador e DevOps Engineer.
+* `04_Agent_Steps_01.png`, `05_Agent_Steps_02.png` e `06_Agent_Steps_03.png`: Capturas de tela sequenciais comprovando a comunicação detalhada, a delegação de tarefas e os relatórios gerados pelos agentes na interface.
 
 ---
 
