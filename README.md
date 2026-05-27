@@ -48,7 +48,6 @@ Agentes que concordam com tudo produzem relatórios sem valor. O CodeGuardian AI
 | Requirements_Reviewer ↔ Security_Analyst | Escopo definido vs. LGPD não negociável |
 
 O **Orquestrador** não suprime os conflitos — ele os nomeia, medeia e extrai o melhor resultado de cada tensão.
->>>>>>> 9cd2324 (v2 do codeGuardian -> time completo)
 
 ---
 
@@ -80,7 +79,6 @@ Quality_Orchestrator     ← medeia, resolve e entrega relatório final em pt-BR
 
 ## 🧪 Caso de Teste — Projeto EduTrack
 
-<<<<<<< HEAD
 * **Problema de Compatibilidade de Modelo:** O AutoGen rejeitou a nomenclatura padrão do modelo local (`openai/gpt-oss-20b`) exigindo o parâmetro estrito `model_info`.
 * **Solução Aplicada:** A configuração foi sobrescrita via edição do JSON do componente de modelo. O parâmetro `structured_output` foi definido como `false` para garantir a compatibilidade de parsing com o servidor do LM Studio, permitindo o carregamento bem-sucedido.
 * **Problema de Interface (Timeout Visual):** Modelos mais pesados (20B parâmetros) apresentaram um tempo de resposta (TTFB) elevado, gerando a impressão de travamento na interface de inferência do AutoGen.
