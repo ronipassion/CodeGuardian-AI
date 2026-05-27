@@ -208,7 +208,7 @@ Pressione **Enter** cada vez que o terminal pausar para o próximo agente falar.
 
 ## 📋 Andamento do Projeto
 
-### ✅ Entrega Parcial (Aula 1)
+### ✅ Entrega Parcial 
 - [x] Definição e documentação dos 8 agentes com system messages completos
 - [x] Implementação do conflito produtivo entre agentes
 - [x] Configuração do LM Studio como provedor local (GPT-OSS 20B)
