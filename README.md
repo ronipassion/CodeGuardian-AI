@@ -224,18 +224,4 @@ Pressione **Enter** cada vez que o terminal pausar para o próximo agente falar.
 - [ ] Melhorias na coordenação multiagente
 - [ ] Apresentação final no CodeDay
 
----
 
-## 💡 Curiosidades (a responder na entrega final)
-
-1. Como o papel e a personalidade de cada agente influenciaram as decisões finais?
-2. Houve conflitos entre os agentes? Como o orquestrador os resolveu?
-3. Quais seriam os riscos se cada agente estivesse mal configurado?
-4. Que melhorias você faria para aprimorar a coordenação multiagente?
-
----
-
-## 👥 Equipe
-
-> Adicionar nomes dos integrantes aqui
->>>>>>> 9cd2324 (v2 do codeGuardian -> time completo)
